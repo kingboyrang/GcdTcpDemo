@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+#source "https://github.com/CocoaPods/Specs.git"
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+inhibit_all_warnings!
+target 'socketDemo' do
+        use_frameworks!
+      pod 'CocoaAsyncSocket'
+end
